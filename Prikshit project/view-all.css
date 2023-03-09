@@ -1,0 +1,226 @@
+.side-panel-main-div
+{
+    height: 100%;
+    width: 20%;
+    background-color: whitesmoke;
+    position: relative;
+    top: auto;
+}
+
+.side-panel-1
+{
+    height: 300px;
+}
+
+.side-panel-colors
+{
+    height: 200px;
+}
+
+.side-panel-featured-products
+{
+    height: 500px;
+}
+
+.side-panel-div-heading
+{
+    height: 50px;
+    border-bottom:2px black solid ;
+    display:flex;
+}
+
+.side-panel-div-heading svg
+{
+    right: 0;
+    position: absolute;
+}
+
+.side-panel-1-ul
+{
+    list-style:none ;
+    display: block;
+    padding: 0px;
+    margin: 0;
+}
+
+.side-panel-1-ul-li
+{
+    display: block;
+    position: relative;
+    margin: 20px;
+    transition: 0.6s;
+    height: 25px;
+    font-weight: 700;
+}
+
+.side-panel-1-ul-li:hover
+{
+    left: 5px;
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+.colors
+{
+    height: 200px;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.colors-ul 
+{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.colors-li
+{
+    margin-inline: 5px;
+    position:relative;
+    padding: 5px;
+    transition: 0.6s;
+}
+
+.colors-li:hover
+{
+    transform: scale(1.1);
+}
+
+.btn-black
+{
+    background-color: black;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px;   
+}
+
+.btn-red
+{
+    background-color: red;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px;   
+}
+
+.btn-yellow
+{
+    background-color: yellow;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px;   
+}
+
+.btn-purple
+{
+    background-color: purple;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px;     
+}
+
+.btn-grey
+{
+    background-color: grey;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px;   
+}
+
+.btn-green
+{
+    background-color: green;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px; 
+}
+
+.btn-blue
+{
+    background-color: blue;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px;  
+}
+
+.btn-pink
+{
+    background-color: pink;
+    border-radius: 150px;
+    border: transparent;
+    height: 35px;
+    width:35px;  
+}
+
+.featured-product
+{
+    position: relative;
+    height: 400px;
+    width: 210px;
+    margin: 20px;
+    top: 0px;
+    left: 10px;
+    float: left;
+}
+
+
+/* end side panel */
+
+
+.other-portion
+{
+    width: 70%;
+    height: 100%;
+    background-color: bisque;
+    position:absolute;
+    top: 150px;
+    left:25% ;
+}
+
+.bg-img-view-img
+{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bg-img-view-img-img
+{
+    height: 300px;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.bg-img-view-img-img:hover
+{
+    transform: scale(1.05);
+}
+
+.img-info
+{
+   fontsize: 16px;
+   line-height: 26px;
+    margin-top: 12px;
+    color: #3c3c3c;
+    border-bottom: #3c3c3c .8px solid;
+}
+
+
+.view-all-footer
+{
+    position: relative;
+    top:500px;
+}

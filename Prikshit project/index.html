@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- menu -->
+    <div class="container-fluid mainmenudiv ">
+        <div class="container">
+            <div class="logodiv">
+                <img src="images/logo.jpeg" class="logoimg">
+            </div>
+
+            <div class="searchbardiv">
+                <input type="search" name="searchbar" id="searchbar" class="searchbar" placeholder="Search here">
+                <button class="searchbtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="helpbox">
+                Need help
+                <br>
+                <b>(1800-987 654)</b>
+
+            </div>
+
+            <!-- icon header -->
+
+            <div class="icon-header-div">
+                <div class="icon-header">
+                    <a href="#" class="icons-a">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="currentColor"
+                            class="icons bi bi-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                        </svg>
+                        <span class="span-icon-header">Wishlist</span>
+                    </a>
+
+                </div>
+
+
+
+                <div class="icon-header">
+                    <a href="#" class="icons-a">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="currentColor"
+                            class="icons bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                        </svg>
+                        <br>
+                        <span class="span-icon-header">
+                            Sign in
+                        </span>
+                    </a>
+                </div>
+
+                <div class="icon-header">
+                    <a href="#" class="icons-a">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icons" fill="currentColor"
+                            class="icons bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                        <br>
+                        <span class="span-icon-header">Cart</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- icon header end -->
+
+            <!-- nav -->
+            <div class="menudiv">
+                <ul class="ul-menu">
+                    <a href="#" class="menu-a">
+                        <li class="li-menu">
+                            Brands
+
+                            <div class="drop-downmenu-brands container">
+
+
+                                <div class="brands-box-dropdown">
+                                    <div class="brand">
+                                        <img src="images/brand-1.jpeg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-2.jpeg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-3.jpeg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-4.jpeg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-5.jpeg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-6.jpeg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-7.jpg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-8.jpg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-9.jpg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                    <div class="brand">
+                                        <img src="images/brand-10.jpg" alt="brand-1">
+
+                                        <a href="#">Brand Name</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+                    </a>
+
+                    <a href="#" class="menu-a">
+                        <li class="li-menu">
+                            Shop
+
+
+                        </li>
+                    </a>
+
+                    <a href="#" class="menu-a">
+                        <li class="li-menu">
+                            Products
+
+
+                        </li>
+                    </a>
+
+                    <a href="#" class="menu-a">
+                        <li class="li-menu">
+                            Blogs
+
+
+                        </li>
+                    </a>
+
+                    <a href="#" class="menu-a">
+                        <li class="li-menu">
+                            Pages
+
+                            <div class="drop-downmenu-small ">
+                                <ul class="drop-ul-small">
+                                    <li class="drop-li-text">Store Locator</li>
+                                    <li class="drop-li-text">Services</li>
+                                    <li class="drop-li-text">Wishlist</li>
+                                    <li class="drop-li-text">Instagram</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </a>
+
+                    <a href="#" class="menu-a">
+                        <li class="li-menu">
+
+                            Collections
+
+                            <div class="drop-downmenu container">
+
+                                <ul class="drop-ul1">
+                                    <li>Whats New </li>
+                                    <li>Best Selling</li>
+                                    <li>Top Rated</li>
+                                    <li>Most Popular</li>
+                                    <li>Editor's Choice</li>
+
+                                </ul>
+
+                                <ul class="drop-ul1">
+                                    <li>Lorem De Dorus</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+
+                                </ul>
+
+                                <ul class="drop-ul1">
+                                    <li>Lorem De Dorus</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+
+                                </ul>
+
+                                <ul class="drop-ul1">
+                                    <li>Lorem De Dorus</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+                                    <li class="drop-li-text">Dincidunteros</li>
+
+                                </ul>
+                                <div class="mega-menu-imgs-div">
+                                    <div class="mega-menu-img">
+                                        <img src="images/mega-menu-dog.jpeg" alt="">
+                                    </div>
+
+                                    <div class="mega-menu-img">
+                                        <img src="images/mega-menu-cat.jpeg" alt="">
+                                    </div>
+
+                                    <div class="mega-menu-img">
+                                        <h2>New Products</h2>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </li>
+                    </a>
+
+                    <a href="#" class="menu-a">
+                        <li class="li-menu">
+
+                            About us
+                        </li>
+                    </a>
+
+
+
+                    <li class="li-right">
+                        <img src="images/united-states.png" alt="usa" height="24" width="24">
+
+                        EU/USD
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+
+
+                        <div class="drop-downmenu-currency ">
+                            <ul class="drop-ul-currency">
+
+                                <li class="drop-li-text">
+                                    <img src="images/india.png" alt="usa" height="24" width="24">
+
+                                    INR
+                                </li>
+
+                                <li class="drop-li-text">
+                                    <img src="images/france.png" alt="usa" height="24" width="24">
+
+                                    EUR
+                                </li>
+
+                                <li class="drop-li-text">
+                                    <img src="images/china.png" alt="usa" height="24" width="24">
+
+                                    YEN
+                                </li>
+
+                                <li class="drop-li-text">
+                                    <img src="images/united-kingdom.png" alt="usa" height="24" width="24">
+
+                                    GBT
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- nav end -->
+
+
+            <!-- menu end -->
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <div class="container white-label">
+
+        <span>Sale up to <u><b> 60% OFF </b></u> on everthing.*</span>
+        <button>SHOP NOW!</button>
+    </div>
+
+    <!--main img  -->
+    <div class="bgimg">
+        <img src="images/background-img.jpeg" alt="" width="100%" height="100%">
+    </div>
+    <!-- end main img -->
+
+    <!-- offers -->
+    <section>
+        <div class="container position">
+            <!-- pets shop  -->
+            <div class="container pets-shop">
+                <h1 class="title">Pets shop</h1>
+
+                <a href="#" class="a-pets">
+                    <div class="pets">
+                        <img src="images/pet-1.jpeg" alt="" class="pet-img">
+                        <span>Dog</span>
+                    </div>
+                </a>
+
+
+                <a href="#" class="a-pets">
+                    <div class="pets">
+                        <img src="images/pet-2.jpg" alt="" class="pet-img">
+                        <span>Cat</span>
+                    </div>
+                </a>
+
+                <a href="#" class="a-pets">
+                    <div class="pets">
+                        <img src="images/pet-3.jpg" alt="" class="pet-img">
+                        <span>Rabit</span>
+                    </div>
+                </a>
+
+                <a href="#" class="a-pets">
+                    <div class="pets">
+                        <img src="images/pet-4.jpg" alt="" class="pet-img">
+                        <span>Turtle</span>
+                    </div>
+                </a>
+
+                <a href="#" class="a-pets">
+                    <div class="pets">
+                        <img src="images/pet-5.jpg" alt="" class="pet-img">
+                        <span>Bird</span>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end pet shop -->
+
+
+    <!-- offer  -->
+    <div class="container offers">
+
+        <h1 class="title">Weekly Special Offers</h1>
+
+        <ul class="offers-list">
+            <li>Dogs</li>
+            <li>Cats</li>
+            <li>Rabbits</li>
+            <li>Turtle</li>
+            <li>Birds</li>
+        </ul>
+
+        <div class="offers-divs">
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet1.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet2.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet3.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet4.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet5.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet6.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet7.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+            <a href="#" class="a-pets">
+                <div class="offers-div">
+                    <img src="images/offer-pet8.jpg" alt="" class="offer-petsimg">
+
+                    <div class="span-1">Offer 70%</div>
+                </div>
+            </a>
+
+
+        </div>
+    </div>
+    <!-- end offer -->
+<br><br><br>
+    <!-- banners -->
+    <div class="big-images-section container">
+        <h1 class="title">Shop all you want</h1>
+        <br>
+        <div class="banner-big">
+            <img src="images/banner-1.jpeg" alt="" class="banner">
+
+            <br><br>
+            <h4>Holiday Sale </h4>
+        </div>
+
+
+        <div class="banner-small1">
+            <img src="images/banner-2.jpeg" alt="" class="banner">
+            <br><br>
+            <h4>Holiday Sale </h4>
+        </div>
+
+        <div class="banner-small2">
+            <img src="images/banner-3.jpeg" alt="" class="banner">
+            <br><br>
+            <h4>Holiday Sale </h4>
+        </div>
+
+
+    </div>
+    <!-- end banners -->
+
+    <!-- new products -->
+    <div class=" container products-main">
+        <div class="newproducts-top">
+
+            <h1>New Products</h1>
+            <a href="#" class="view-all">View all</a>
+        </div>
+        <!-- product 1 -->
+        <div class="products">
+            <div class="products-img1"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        <!-- product 2 -->
+        <div class=" products">
+            <div class="products-img2"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        <!-- product 3 -->
+        <div class="products">
+            <div class="products-img3"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+        <!-- product 4 -->
+        <div class="products">
+            <div class="products-img4"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        <!-- product 5 -->
+        <div class="products">
+            <div class="products-img5"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+
+
+    </div>
+    <!-- end new products -->
+
+    <!-- why pet section -->
+    <div class=" container whypets">
+        <h2>Why Pets?</h2>
+        <div class="pet-bg">
+            <div class="pet-block-main">
+                <div class="div1">
+                    <div class="pet-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-truck p-icon"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                        </svg>
+                    </div>
+                    <div class="ad-text">
+                        <b>Free shipping over 99$</b>
+                        <br>
+                        <span>Phasellus lorem malesuada ligula cosmopolis</span>
+                        <br><br>
+                        <a href="#" target="_blank">
+                            Find Out More
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="div1">
+                    <div class="pet-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-archive p-icon" viewBox="0 0 16 16">
+                            <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                    </div>
+
+                    <div class="ad-text">
+                        <b>Free shipping over 99$</b>
+                        <br>
+                        <span>Phasellus lorem malesuada ligula cosmopolis</span>
+                        <br><br>
+                        <a href="#" target="_blank">
+                            Find Out More
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="div1">
+                    <div class="pet-block">
+                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-gift p-icon" viewBox="0 0 16 16">
+                            <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z"/>
+                        </svg>
+                    </div>
+
+                        <div class="ad-text">
+                            <b>Free shipping over 99$</b>
+                            <br>
+                            <span>Phasellus lorem malesuada ligula cosmopolis</span>
+                            <br><br>
+                            <a href="#" target="_blank">
+                                Find Out More
+                            </a>
+                        </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end why pet section -->
+
+
+    <!-- featured products -->
+    <div class="container products-main">
+        <div class="newproducts-top">
+
+            <h1>Featured Products</h1>
+            <a href="#" class="view-all">View all</a>
+        </div>
+
+        <div class="products">
+            <div class="products-img1"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        <div class="products">
+            <div class="products-img2"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        <div class="products">
+            <div class="products-img3"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        <div class="products">
+            <div class="products-img4"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        <div class="products">
+            <div class="products-img5"></div>
+
+            <a href="#" class="products-a">
+                <b>New-product</b><br>
+                Products-sample Pets Toys
+            </a>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill star" viewBox="0 0 16 16">
+                <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <br>
+            <b>$49.99</b>
+            <br>
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <br>
+            <br>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+
+
+    </div>
+    <!-- end featured products -->
+
+
+
+    <!-- brand section -->
+    <div class="container products-main">
+        <div class="newproducts-top">
+
+            <h1>2000+ Brands stock</h1>
+            <a href="#" class="view-all">View all</a>
+        </div>
+        <div class="brands-box container">
+            <div class="brand">
+                <img src="images/brand-1.jpeg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-2.jpeg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-3.jpeg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-4.jpeg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-5.jpeg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-6.jpeg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-7.jpg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-8.jpg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-9.jpg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+            <div class="brand">
+                <img src="images/brand-10.jpg" alt="brand-1">
+
+                <a href="#">Brand Name</a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end brand section -->
+
+    <!-- pets favs -->
+    <div class="container pets-favs">
+        <h1>Pet Favarite Products</h1>
+
+
+
+        <div class="fav-banner1">
+            <img src="images/fav-banner1.jpeg" alt="fav-banner" class="fav-banner1img">
+        </div>
+
+        <div class="fav-banner2">
+            <img src="images/fav-banner2.jpeg" alt="fav-banner " class="fav-banner2img">
+        </div>
+
+        <div class="fav-banner3">
+            <img src="images/fav-banner3.jpeg" alt="fav-banner " class="fav-banner3">
+        </div>
+
+        <div class="fav-banner4">
+            <img src="images/fav-banner4.jpeg" alt="fav-banner " class="fav-banner4">
+        </div>
+
+    </div>
+    <!-- end pet favs -->
+
+    <div class="container little-para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Fusce viverra vehicula ante. Maecenas vulputate lectus
+            sed dolor finibus laoreet id nec tellus. Integer ac
+            justo condimentum, faucibus arcu ac, dapibus nisl.
+            Praesent in sapien sagittis, convallis tortor at,
+            dapibus libero. Mauris dictum magna mi. Donec est
+            est, aliquet ut lorem ut, viverra sollicitudin magna.
+            Nullam non lectus id enim placerat pulvinar. Suspendisse
+            potenti. Nulla nec velit at sem varius convallis vel sed
+            sem. <b><u>Orci varius natoque, penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus...</u></b>
+        </p>
+
+        <a href="#">Read More</a>
+    </div>
+
+    <!-- profile section -->
+
+    <div class=" profiles-main ">
+        <span class="span-h">Top Pick for Pets Experts</span>
+        <br>
+        <div class="profile-1">
+            <div class="profile">
+                <img src="images/profile-1.jpeg" alt="profile" class="profile-img">
+                <br>
+                <span>John Doe</span>
+                <p class="profile-a">Pellentesque pharetra, libero quis aliquet cursus odio velit varius
+                    libero.</p>
+                <a href="#">Read More </a>
+            </div>
+
+            <div class="profile">
+
+                <img src="images/profile-2.jpeg" alt="profile" class="profile-img">
+                <br>
+                <span>John Doe</span>
+                <p class="profile-a">Pellentesque pharetra, libero quis aliquet cursus odio velit varius
+                    libero.</p>
+                <a href="#">Read More </a>
+            </div>
+            <div class="profile">
+                <img src="images/profile-3.jpeg" alt="profile" class="profile-img">
+                <br>
+                <span>John Doe</span>
+                <p class="profile-a">Pellentesque pharetra, libero quis aliquet cursus odio velit varius
+                    libero.</p>
+                <a href="#">Read More </a>
+            </div>
+            <div class="profile">
+                <img src="images/profile-4.jpeg" alt="profile" class="profile-img">
+                <br>
+                <span>John Doe</span>
+                <p class="profile-a">Pellentesque pharetra, libero quis aliquet cursus odio velit varius
+                    libero.</p>
+                <a href="#">Read More </a>
+            </div>
+        </div>
+    </div>
+    <!-- end profile section -->
+
+
+
+
+
+
+
+    <!-- gallery -->
+    <div class="container">
+        <div class="gallery-main">
+
+            <span class="span-h">#Pet Gallery</span>
+            <h4>You can add images in here</h4>
+            <div class="gallery-">
+                <div class="gallery">
+                    <img src="images/gallery-1.jpeg" alt="gallery" class="gallery-img">
+                </div>
+
+                <div class="gallery">
+                    <img src="images/gallery-2.jpeg" alt="gallery" class="gallery-img">
+                </div>
+
+                <div class="gallery">
+                    <img src="images/gallery-3.jpeg" alt="gallery" class="gallery-img">
+                </div>
+
+                <div class="gallery">
+                    <img src="images/gallery-4.jpeg" alt="gallery" class="gallery-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery end -->
+
+    <!-- fotter part start -->
+    <footer class="">
+        <div class="footermaindiv">
+            <div class=" footerinsidediv container">
+                <div class="searchboxdiv">
+                    <h3 class="txtbold3">NEWSLETTER SIGN UP</h3>
+                    <h6 class="footerhsix">Receive our latest updates about our products and promotions.</h6>
+                    <input type="search" name="searchbox" placeholder="enter your email address" class="footersrch">
+                    <button class="submit">SUBMIT </button>
+                    <div class="maintextdev">
+                        <div class="textpart">
+                            <div>
+                                <h5><b>CATEGORIES</b></h5>
+                                <h6 class="opacity6 margintp">Absut </h6>
+                                <h6 class="opacity6">Bjbdhcj </h6>
+                                <h6 class="opacity6">Ptoliun </h6>
+                                <h6 class="opacity6">Mnoloiu </h6>
+                                <h6 class="opacity6">Bhwerty uye </h6>
+                                <h6 class="opacity6">Nieyrb eddbbs </h6>
+                            </div>
+
+                        </div>
+                        <div class="textpart">
+                            <div>
+                                <h5><b>FURTHER INFO.
+                                    </b></h5>
+                                <h6 class="opacity6 margintp">Bibendumetos </h6>
+                                <h6 class="opacity6">Pellentes Habitanto </h6>
+                                <h6 class="opacity6">Senectus </h6>
+                                <h6 class="opacity6">Consequatod </h6>
+                                <h6 class="opacity6">Scelerisque Yurnas </h6>
+                                <h6 class="opacity6">Loremouticas </h6>
+                            </div>
+
+                        </div>
+                        <div class="textpart">
+                            <div>
+                                <h5><b>CUSTOMER SERVICE</b></h5>
+                                <h6 class="opacity6 margintp">bdcbdsbdh d </h6>
+                                <h6 class="opacity6">ccdbrtb fb </h6>
+                                <h6 class="opacity6">vbtb dvwdv </h6>
+                                <h6 class="opacity6">Bib dcdsvos </h6>
+                                <h6 class="opacity6">vbgy dhcvfbcv </h6>
+                                <h6 class="opacity6">bvcnmko hyuio </h6>
+                            </div>
+
+                        </div>
+                        <div class="textpart">
+                            <div>
+                                <h2 class="lefty1 margintp"><b>EIIA</b></h2>
+                                <h6 class="lefty2"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                        fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                    </svg><a href="#" class="white"> 685 Market Street<br>
+                                        San Francisco, CA 94105, US</a> </h6>
+                                <h6 class="lefty2"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                        fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    </svg> Call us: (090) 123-EIIA </h6>
+                                <h6 class="lefty2"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg> <a href="#" class="white"> Email: example@domain.com</a>
+
+                                </h6>
+                                <h6 class="lefty2">
+                                    <div class="social">
+                                        <a href="#" class="social"> <svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                                height="28" fill="currentColor" class="bi bi-facebook"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                            </svg></a>
+
+                                        <a href="#" class="social"> <svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                                height="28" fill="currentColor" class="bi bi-whatsapp"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                            </svg></a>
+
+                                        <a href="#" class="social"> <svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                                height="28" fill="currentColor" class="bi bi-messenger"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+                                            </svg></a>
+
+                                        <a href="#" class="social"> <svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                                height="28" fill="currentColor" class="bi bi-instagram"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                            </svg>
+                                </h6></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <center>
+            <div class="container"><img src="images/footerimg-cards.jpeg" alt="Payments" type="image" class="payments">
+            </div>
+        </center>
+
+    </footer>
+
+    <div class="silverlast">
+        <div class="container lastcard">
+            <div class="floatleft">
+                <h6>Designed & Devloped By: Prikshit.</h6>
+
+            </div>
+            <div class="floatright"><img src="images/card.png" alt="payments methods">
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer part end -->
+
+
+    <div class="last-icons">
+        <div class="l-icon-div">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-clock l-icon" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+              </svg>
+        </div>
+        <div class="l-icon-div">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-share l-icon" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg>
+        </div>
+        <div class="l-icon-div">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-up l-icon" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+              </svg>
+        </div>
+    </div>
+
+    <button class="last-info">
+        Enjoy 3 months of Shopify for $1/month -
+        Start your FREE TRIAL
+        &nbsp;
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+    </button>
+
+
+</body>
+
+</html>

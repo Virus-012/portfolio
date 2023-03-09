@@ -1,0 +1,1246 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Jost;
+    font-weight: 800;
+}
+
+
+.mainmenudiv {
+    height: 150px;
+    width: 100%;
+    background-color: #234bbb;
+    position: relative;
+}
+
+.logoimg {
+    height: 40px;
+    width: 150px;
+
+}
+
+.logodiv {
+    float: left;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+}
+
+.searchbardiv {
+    position: relative;
+    left: 3cm;
+    top: 20px;
+    height: 50px;
+    width: 510px;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+}
+
+.searchbar {
+    padding: 16px 12px;
+    height: 100%;
+    width: 450px;
+    border: none;
+    color: #808080;
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+    outline: none;
+}
+
+.searchbtn {
+    height: 45px;
+    width: 40px;
+    border: 0px;
+    padding: 12px;
+    color: #234bbb;
+    background-color: white;
+    position: absolute;
+    top: auto;
+}
+
+.helpbox {
+    height: 50px;
+    width: 150px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    display: hidden;
+    font-size: 18px;
+}
+
+.icon-header-div {
+    height: 80px;
+    width: 300px;
+    position: relative;
+    float: right;
+    top: 10px;
+}
+
+.icon-header {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    float: left;
+    right: 0;
+    top: 10px;
+    margin-inline: 5px;
+    text-align: center;
+}
+
+.span-icon-header {
+    position: relative;
+    top: 8px;
+    left: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.icons-a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icons-a:hover {
+    color: white;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    transition: 0.4s;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+.menudiv {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 100px;
+}
+
+.ul-menu {
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style: none;
+    color: white;
+    width: 100%;
+    font-style: Jost;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.li-menu {
+    position: static;
+    font-size: 18px;
+    font-weight: 750;
+    left: 0;
+    float: left;
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.li-menu:hover .drop-downmenu {
+    display: block;
+}
+
+.li-menu:hover .drop-downmenu-small {
+    display: block;
+}
+
+.li-menu:hover .drop-downmenu-brands
+{
+    display: block;
+}
+
+li:hover {
+    text-decoration: underline;
+    display: block;
+}
+
+.li-right {
+    float: right;
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.li-right:hover .drop-downmenu-currency {
+    display: block;
+}
+
+
+
+
+.brands-box-dropdown {
+    height: 450px;
+    position: relative;
+}
+
+.drop-downmenu-currency {
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    top: auto;
+    right: 30px;
+    color: black;
+    display: none;
+    z-index: 1;
+    background-color: white;
+
+}
+
+.drop-downmenu-small {
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: auto;
+    display: none;
+    z-index: 1;
+    background-color: white;
+    color: #051c42;
+}
+
+.drop-downmenu-brands
+{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: black;
+    display: none;
+    z-index: 1;
+    background-color: white;
+}
+
+.drop-ul-small {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.drop-ul-small li {
+    border-bottom: 0.5px #051c42 solid;
+}
+
+.drop-ul-small li:last-child {
+    border-bottom: 0;
+}
+
+
+
+
+
+.menu-a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.drop-downmenu {
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: black;
+    display: none;
+    z-index: 1;
+    background-color: white;
+
+}
+
+
+.drop-ul1 {
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: left;
+    list-style: none;
+    margin-inline: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.drop-li-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.drop-ul-currency {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.mega-menu-imgs-div {
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #f5f5f5;
+}
+
+.mega-menu-img {
+    height: 300px;
+    width: 450px;
+    float: left;
+    overflow: hidden;
+}
+
+.mega-menu-img img {
+    height: 100%;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.mega-menu-img img:hover {
+    transform: scale(1.05);
+}
+
+
+/* menu header end */
+
+
+
+
+.white-label
+{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.white-label span
+{
+    font-size: 18px;
+}
+
+.white-label button
+{
+    padding: 8px 20px;
+    background-color: #e1732c;
+    color: white;
+    border: white 1px solid ;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+
+
+.bgimg {
+    position: relative;
+    top: 0px;
+    left: 0%;
+
+
+}
+
+.title {
+    color: #051c42;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.position {
+    position: relative;
+    top: 0px;
+}
+
+.pets-shop {
+    color: black;
+    position: absolute;
+
+    top: 30px;
+    text-align: center;
+}
+
+.pets {
+    height: 300px;
+    width: 250px;
+    float: left;
+}
+
+.a-pets {
+    color: #051c42;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.a-pets:hover {
+    color: #234bbb;
+    text-decoration: underline;
+}
+
+.pet-img {
+    height: 250px;
+    width: 250px;
+}
+
+
+.offers {
+    position: relative;
+    top: 400px;
+}
+
+.offers-list li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    border: #051c42 1px solid;
+    padding: 20px;
+    border-radius: 50px;
+
+    margin: 20px;
+    font-weight: bold;
+}
+
+.offers-list li:hover {
+    background-color: #e1732c;
+    color: white;
+    text-decoration: none;
+    border: #e1732c 1px solid;
+}
+
+.offers-divs {
+
+    height: 750px;
+    position: relative;
+}
+
+
+.offers-div {
+    height: 350px;
+    width: 300px;
+
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+.offer-petsimg {
+    height: 270px;
+    width: 270px;
+    transition: 0.6s;
+}
+
+.offer-petsimg:hover {
+    height: 300px;
+    width: 300px;
+    transition: 0.6s;
+}
+
+.span-1 {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+
+
+.big-images-section {
+    position: relative;
+    text-align: center;
+    height: 800px;
+    top: 380px;
+
+}
+
+.banner-big {
+    position: absolute;
+    top: auto;
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    transition: .64s ease;
+}
+
+.banner:hover {
+    transform: scale(1.05);
+}
+
+
+.banner-small1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 600x;
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner-small2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.products-main {
+    position: relative;
+    height: 600px;
+    top: 400px;
+    margin-top: 1cm;
+}
+
+.newproducts-top {
+    height: 80px;
+    border-bottom: #051c42 3px solid;
+    position: absolute;
+    width: 100%;
+}
+
+
+.view-all {
+    right: 0;
+    position: absolute;
+    top: 15px;
+}
+
+
+.products {
+    position: relative;
+    height: 400px;
+    width: 210px;
+    margin: 20px;
+    top: 80px;
+    left: 10px;
+    float: left;
+}
+
+.products-a {
+    color: black;
+    text-decoration: none;
+}
+
+.products-a:hover {
+    color: #234bbb;
+    text-decoration: underline;
+}
+
+.star {
+    color: orange;
+}
+
+
+.products-img1 {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-size: 200px 200px;
+    background-image: url('images/product-1.1.jpeg');
+    transition: 0.6s;
+}
+
+.products-img1:hover {
+    background-image: url('images/product-1.jpeg');
+    background-size: contain;
+    background-size: 200px 200px;
+    transition: .6s;
+}
+
+.products-img2 {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-size: 200px 200px;
+    background-image: url('images/product-2.1.jpeg');
+    transition: 0.6s;
+}
+
+.products-img2:hover {
+    background-image: url('images/product-2.jpeg');
+    background-size: contain;
+    background-size: 200px 200px;
+    transition: .6s;
+}
+
+.products-img3 {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-size: 200px 200px;
+    background-image: url('images/product-3.1.jpeg');
+    transition: 0.6s;
+}
+
+.products-img3:hover {
+    background-image: url('images/product-3.jpeg');
+    background-size: contain;
+    background-size: 200px 200px;
+    transition: .6s;
+}
+
+.products-img4 {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-size: 200px 200px;
+    background-image: url('images/product-4.1.jpeg');
+    transition: 0.6s;
+}
+
+.products-img4:hover {
+    background-image: url('images/product-4.jpeg');
+    background-size: contain;
+    background-size: 200px 200px;
+    transition: .6s;
+}
+
+.products-img5 {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-size: 200px 200px;
+    background-image: url('images/product-5.1.jpeg');
+    transition: 0.6s;
+}
+
+.products-img5:hover {
+    background-image: url('images/product-5.jpeg');
+    background-size: contain;
+    background-size: 200px 200px;
+    transition: .6s;
+}
+
+.btn1 {
+    background-color: black;
+    border-radius: 150px;
+    border: transparent;
+    height: 25px;
+    width: 25px;
+}
+
+.btn2 {
+    background-color: brown;
+    border-radius: 150px;
+    border: transparent;
+    height: 25px;
+    width: 25px;
+}
+
+.btn3 {
+    background-color: burlywood;
+    border-radius: 150px;
+    border: transparent;
+    height: 25px;
+    width: 25px;
+}
+
+.add-to-cart {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0cm;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: bolder;
+    transition: .6s;
+}
+
+.add-to-cart:hover {
+    background-color: #e1732c;
+    color: white;
+    border: 2px solid #e1732c;
+    transition: .6s;
+}
+
+
+
+
+
+
+.whypets {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 400px;
+    text-align: center;
+}
+
+.whypets h2 {
+    margin-top: 30px;
+}
+
+.pet-bg {
+    height: 350px;
+    width: 100%;
+    background-image: url('images/pet-bg.jpg');
+    background-size: contain;
+    background-size: 100% 100%;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+}
+
+.pet-block-main {
+    height: 300px;
+    width: 100%;
+}
+
+
+.div1
+{
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 390px;
+    vertical-align: top;
+    margin-inline: 10px;
+
+}
+
+.pet-block {
+
+    position:absolute;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    background-color: #e1732c; 
+    border-radius: 50px;
+    left:10px;
+    top: 2.5cm;
+    text-align: center;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.pet-block:hover
+{
+    transform: scale(1.1);
+}
+.ad-text {
+    height: 100px;
+    color: black;
+    display: inline-block;
+    top: 2.5cm;
+    width: 250px;
+    position: absolute;
+    left: 120px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.ad-text a{
+    color: #051c42;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.p-icon {
+    height: 50px;
+    width: 50px;
+    
+    padding: 0px;
+    color: white;
+    transition: 0.6s;
+}
+
+
+
+
+
+.brands-box {
+    height: 450px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.brand {
+    height: 180px;
+    width: 230px;
+    text-align: center;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 10%);
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+.brand a {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 25px;
+    left: 80px;
+    font-weight: 400;
+}
+
+.brand img {
+    height: 80px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    transition: 0.4s;
+}
+
+.brand img:hover {
+    height: 90px;
+    width: 160px;
+    transition: 0.4s;
+
+}
+
+.pets-favs {
+    position: relative;
+    height: 800px;
+    text-align: center;
+    top: 400px;
+}
+
+.fav-banner1 {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+.fav-banner1img:hover {
+    transform: scale(1.02);
+}
+
+.fav-banner1img {
+    height: 700px;
+    width: 650px;
+    transition: 0.6s;
+}
+
+.fav-banner2 {
+    position: absolute;
+    right: 1.3cm;
+    overflow: hidden;
+
+}
+
+.fav-banner2img:hover {
+    transform: scale(1.02);
+}
+
+.fav-banner2img {
+    height: 370px;
+    width: 570px;
+    transition: 0.6s;
+}
+
+.fav-banner3 {
+    position: absolute;
+    bottom: 20px;
+    right: 4.6cm;
+    transition: 0.6s;
+}
+
+.fav-banner3:hover {
+    transform: scale(1.01);
+}
+
+
+
+
+.fav-banner4 {
+    position: absolute;
+    bottom: 20px;
+    right: 0.7cm;
+    transition: 0.6s;
+}
+
+.fav-banner4:hover {
+    transform: scale(1.01);
+}
+
+
+.little-para {
+    color: #051c42;
+    font-size: 16px;
+    width: 100%;
+position: relative;
+    text-align: center;
+    top: 400px;
+}
+
+.little-para a {
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+/* profile css */
+.profiles-main {
+    position: relative;
+    height: 520px;
+    background-image: url('images/profile-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 20px;
+    color: #051c42;
+    width: 100%;
+    top:450px
+
+}
+
+.span-h {
+    color: #051c42;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+.profile-1 {
+    height: 270px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.profile {
+    height: 430px;
+    width: 280px;
+    text-align: center;
+    color: #051c42;
+    float: left;
+    margin: 10px;
+}
+
+.profile span {
+    color: #051c42;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.profile a {
+    color: #051c42;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.profile-img {
+    height: 270px;
+    width: 270px;
+    transition: 0.6s;
+    border: 8px solid #71e9f2;
+    border-radius: 150px;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+.gallery-main {
+    height: 400px;
+    text-align: center;
+    color: #051c42;
+    padding: 20px;
+    top:400px;
+    position: relative;
+}
+
+.gallery- {
+    position: relative;
+    height: 250px;
+}
+
+.gallery {
+    height: 280px;
+    width: 280px;
+    float: left;
+    margin: 10px;
+}
+
+.gallery-img {
+    height: 280px;
+    width: 280px;
+    transition: 0.6s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+
+.footermaindiv {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 600px;
+    align-content: center;
+    z-index: 1;
+    position: relative;
+    bottom: auto;
+    padding: 20px;
+    top: 450px;
+}
+
+.footerinsidediv {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchboxdiv {
+    color: black;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.footerhsix {
+    letter-spacing: 1px;
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 3;
+}
+
+.submit {
+    background: #234bbb;
+    border: 0px;
+    color: #ffffff;
+    border-radius: 26px;
+    padding: 10px;
+    font-weight: bold;
+    width: 130px;
+    height: 49px;
+    font-size: 16px;
+    transition: 0.6s;
+
+}
+
+.submit:hover {
+    background-color: #051c42;
+    color: white;
+    transition: 0.6s;
+}
+
+.footersrch {
+    height: 46px;
+    width: 470px;
+    border: 0px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px black solid;
+}
+
+.maintextdev {
+
+    height: 330px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.textpart {
+    height: 230px;
+    width: 23%;
+    display: inline-flex;
+    margin-inline: 6px;
+}
+
+.opacity6 {
+    opacity: 0.7;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: arial;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.margintp {
+    margin-top: 34px;
+}
+
+.lefty1 {
+    text-align: left;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.lefty2 {
+    text-align: center;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: arial;
+    opacity: 0.8;
+    margin-top: 34px;
+    line-height: 1.5;
+}
+
+.white {
+    color: black;
+    text-decoration: none;
+}
+
+.white:hover {
+    color: black;
+    border-bottom: 0.5px solid white;
+
+}
+
+.social {
+    padding: 3px;
+    color: black;
+    margin-top: -18px;
+}
+
+.social:hover {
+    color: #234bbb;
+    transition: 0.5s;
+}
+
+.payments {
+    height: 45px;
+    width: 48%;
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+    top: 500px;
+}
+
+
+.silverlast {
+    background-color: #232323;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 500px;
+}
+
+.floatleft {
+    padding-top: 30px;
+    color: #fff;
+    font-family: arial;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.floatright {
+    float: right;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/* side icons */
+
+.last-icons
+{
+    position: fixed;
+    right: 0;
+    top: 40%;
+    width: 50px;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+}
+
+.l-icon-div
+{
+    height: 40px;
+    border-bottom: .5px black dotted;
+    padding: 5px;
+}
+
+.l-icon-div:last-child
+{
+   
+    border-bottom: 0;
+   
+}
+.l-icon-div:hover{
+    background-color: whitesmoke;
+}
+
+.l-icon
+{
+    height: 22px;
+    width: 22px;
+    color: black;
+
+}
+
+.last-info
+{
+    height: 60px;
+    width:500px;
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    background-color: #e1732c;
+    background-image: linear-gradient(to right,#e1732c , #f8c7a6 );
+    z-index: 2;
+    border-radius: 80px;
+    color: #301503;
+    font-size: 1.5vh;
+    font-weight: bold;
+    border: 1px transparent;
+    box-shadow: #301503 5px 5px 5px ;
+}

@@ -1,0 +1,69 @@
+@media (max-width:1400px) and (min-width:1000px) {
+    
+    
+    
+    .searchbardiv
+    {
+        position: relative;
+        left: 3cm;
+        top: 20px;
+        height: 30px;
+        width: 250px;
+        background-color: white;
+        border-radius: 5px;
+        float: left; 
+    }
+
+    .searchbar{
+        padding: 16px 12px;
+        height: 38px;
+        width: 250px;
+        border: 0px transparent;
+        color: #808080;
+        border-radius: 5px;
+        position:relative;
+        top: 5px;
+    }
+    .searchbtn
+    {
+        display: none;
+    } 
+
+   .helpbox
+    {
+      font-size: 15px;
+      letter-spacing: 1.5px;
+    }
+
+    
+    .li-right
+    {
+        display: none;
+    }
+    
+    .pet-shop
+    {
+        top: 0;
+        position: relative;
+    }
+
+    .pets
+    {
+        height: 200px;
+        width: 150px;
+        margin-inline: 10px;
+    }
+
+
+   .pet-img
+   {
+    height: 150px;
+    width: 150px;
+   }
+
+
+   .title
+   {
+    font-size: 30px;
+   }
+}
